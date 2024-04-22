@@ -3,6 +3,7 @@ title: "Cognition · Psychopathology · Psychometrics"
 theme: theme.css
 description: |
   Michael Aristodemou
+base_url: https://mearistodemou.github.io/
 output_dir: "docs"
 
 collections:
