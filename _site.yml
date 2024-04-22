@@ -1,0 +1,30 @@
+name: "mearistodemou"
+title: "Cognition · Psychopathology · Psychometrics"
+theme: theme.css
+description: |
+  Michael Aristodemou
+output_dir: "_site"
+
+collections:
+  posts:
+    disqus:
+      shortname: mearistodemou
+      hidden: false
+      share: [twitter, google scholar, github, cv, email]
+
+navbar:
+  search: false
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: about.html
+    - icon: fab fa-twitter
+      href: https://twitter.com/mearistodemou
+    - icon: fab fa-github
+      href: https://github.com/mearistodemou
+    - icon: fas fa-envelope
+      href: mailto:michael.aristodemou@radboudumc.nl
+     
+      
+output: distill::distill_article
